@@ -1,0 +1,2 @@
+rootProject.name = "Kebun Made"
+include ':app'

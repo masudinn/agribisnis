@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "73310587980",
+    "project_id": "kebun-made",
+    "storage_bucket": "kebun-made.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73310587980:android:914d3b8a2555a8c75078e9",
+        "android_client_info": {
+          "package_name": "com.project.kebunmade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73310587980-q8gb396t39r82p9vcl4arhm338mbj36u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDckLY2M6oBO2qrVAM8AwZOzBAZaDQJ5YQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73310587980-q8gb396t39r82p9vcl4arhm338mbj36u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

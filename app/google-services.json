@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1079724577863",
+    "project_id": "madekotlin-a2427",
+    "storage_bucket": "madekotlin-a2427.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079724577863:android:f5b0bde13166aa4c944d62",
+        "android_client_info": {
+          "package_name": "com.project.kebunmade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079724577863-jn1tr2airelg889odca67egst3fedsr3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.kebunmade",
+            "certificate_hash": "3996c1841c40cd5af437465f53f07357e1c85b00"
+          }
+        },
+        {
+          "client_id": "1079724577863-p6oj1m461o6nar7pjq7pu9lfar7a6lg9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8345_onOlzmgMdG6dW-GiPn65yoP6gVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079724577863-p6oj1m461o6nar7pjq7pu9lfar7a6lg9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

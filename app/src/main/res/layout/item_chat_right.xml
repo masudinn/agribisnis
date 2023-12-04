@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/textBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toStartOf="@+id/userTodp"
+        android:background="@drawable/bg_sender"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <TextView
+            android:id="@+id/messageTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:padding="10dp"
+            android:text="Hai"
+            android:textColor="@android:color/white"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            tools:ignore="SmallSp" />
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:riv_corner_radius="5dp"
+            app:riv_border_color="@color/white"
+            app:riv_border_width="1dp"
+            android:visibility="gone"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="10dp"
+            android:contentDescription="@string/image"
+            android:id="@+id/imageText" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/timeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textBox"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:text="20 Mei 1999, 20:00"
+        android:textColor="@color/black"
+        android:textSize="11sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/userTodp"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
